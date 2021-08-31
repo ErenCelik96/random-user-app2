@@ -1,5 +1,4 @@
-{random-user-app2.gif}
-
+https://github.com/ErenCelik96/random-user-app2/issues/1#issue-983901292
 
 # Getting Started with Create React App
 
