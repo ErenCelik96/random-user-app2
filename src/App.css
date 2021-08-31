@@ -12,6 +12,7 @@
   border:1px solid rgb(167, 167, 167);
   box-shadow: 5px 5px 5px 5px rgb(216, 214, 214);
   margin: 0px 20px;
+  cursor: pointer;
 }
 
 .userPp {
@@ -21,6 +22,7 @@
   padding:10px;
   border:1px solid rgb(167, 167, 167);
   box-shadow: 5px 5px 5px 5px rgb(216, 214, 214);
+  margin-bottom:0px;
 }
 
 .card, .card--container {
@@ -55,7 +57,8 @@ button:hover {
   color: purple;
 }
 
-.woman {
+#woman,
+#agewoman {
   display:none;
 }
 
@@ -67,10 +70,42 @@ table {
 
 thead {
   background-color:#FEC861;
-  border:none;
   color: purple;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-.text {
-  display: none;
+th,
+td {
+  min-width: 200px;
+  height:30px;
+}
+
+tbody {
+  font-size: 20px;
+}
+
+.name,
+.email,
+.age,
+.city,
+.phone,
+.password {
+  visibility: hidden;
+  font-size:25px;
+  text-align: center;
+  position:absolute;
+}
+
+span {
+  font-weight: bold;
+}
+
+.textContainer {
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 500px;
 }
