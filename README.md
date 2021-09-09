@@ -1,6 +1,6 @@
 ![random-user-app2](https://user-images.githubusercontent.com/81647285/131517043-a6ea3c7a-2ce6-4893-b1d6-a3bfd39a0ec7.gif)
 
-# Getting Started with Create React App
+ Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
